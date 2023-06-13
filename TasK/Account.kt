@@ -67,7 +67,7 @@ fun main(){
 				2->{
 					savings.withdraw(amount)
 					current.withdraw(amount)
-				}
+				}else->println("Invalid option")
 			}
 		
 		}
@@ -82,7 +82,7 @@ fun main(){
 				}
 				2->{
 					fixedDeposit.withdraw(amount)
-				}
+				}else->println("Invalid option")
 			}
 			
 			
